@@ -73,11 +73,11 @@ const Page = () => {
                     <br />
                     <Paragraph>
                         Outside the realm of code, Sebastian enjoys artistic activities like&nbsp;
-                        <Link as={NextLink} href="https://sebastiangflorez.tumblr.com/">
+                        <Link as={NextLink} href="https://sebastiangflorez.tumblr.com/" target="_blank">
                             drawing
                         </Link>
                         &nbsp;and&nbsp;
-                        <Link as={NextLink} href="https://500px.com/p/garciaflorezsebastian?view=photos">
+                        <Link as={NextLink} href="https://500px.com/p/garciaflorezsebastian?view=photos" target="_blank">
                             photography
                         </Link>
                         , especially during hikes or travels. Sebastian is currently working for a startup called&nbsp;
@@ -121,9 +121,9 @@ const Page = () => {
                         I ♥
                     </Heading>
                     <Paragraph>
-                        Art, <Link as={NextLink} href="https://sebastiangflorez.tumblr.com/">
+                        Art, <Link as={NextLink} href="https://sebastiangflorez.tumblr.com/" target="_blank">
                             Drawing, 
-                        </Link> <Link as={NextLink} href="https://500px.com/p/garciaflorezsebastian?view=photos">
+                        </Link> <Link as={NextLink} href="https://500px.com/p/garciaflorezsebastian?view=photos" target="_blank">
                         Photography
                         </Link>, Music, Running
                     </Paragraph>
@@ -148,7 +148,7 @@ const Page = () => {
                         </ListItem>
                         <ListItem>
                             <Link href="https://www.instagram.com/sebastiangflorez/" target="_blank">
-                                <Button//www.instagram.com/sebastiangflorez/
+                                <Button
                                     variant='ghost'
                                     colorScheme={useColorModeValue('purple', 'teal')}
                                     leftIcon={<Icon as={IoLogoInstagram} />}
