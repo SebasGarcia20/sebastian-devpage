@@ -12,7 +12,6 @@ const VoxelCat = () => {
     const refContainer = useRef()
     const [loading, setLoading] = useState(true)
     const refRenderer = useRef()
-    const urlCatGLB =  '../public/images/cat-baked.glb'
   
     const handleWindowResize = useCallback(() => {
       const { current: renderer } = refRenderer

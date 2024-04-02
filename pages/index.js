@@ -1,11 +1,10 @@
-import { Box, Container, Heading, Image, useColorModeValue, Link, Button, SimpleGrid, ListItem, Icon, List } from "@chakra-ui/react"
+import { Box, Container, Heading, Image, useColorModeValue, Link, Button, ListItem, Icon, List } from "@chakra-ui/react"
 import NextLink from 'next/link'
 import { ChevronRightIcon } from "@chakra-ui/icons"
 import Section from "../components/section"
 import Paragraph from "../components/paragraph"
 import { BioSection, BioYear } from "../components/bio"
 import Layout from "../components/layouts/article"
-import { GridItem } from "../components/grid-item"
 import {
     IoLogoInstagram,
     IoLogoGithub,
@@ -109,7 +108,7 @@ const Page = () => {
                     </BioSection>
                     <BioSection>
                         <BioYear>2022</BioYear>
-                        Completed the Bachelor's Program in Systems Engineering at Universidad Industrial de Santander.
+                        Completed the Bachelor&apos;s Program in Systems Engineering at Universidad Industrial de Santander.
                     </BioSection>
                     <BioSection>
                         <BioYear>2022 to present</BioYear>
