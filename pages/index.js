@@ -73,11 +73,11 @@ const Page = () => {
                     <br />
                     <Paragraph>
                         Outside the realm of code, Sebastian enjoys artistic activities like&nbsp;
-                        <Link as={NextLink} href="/works/cinemahive">
+                        <Link as={NextLink} href="https://sebastiangflorez.tumblr.com/">
                             drawing
                         </Link>
                         &nbsp;and&nbsp;
-                        <Link as={NextLink} href="/works/cinemahive">
+                        <Link as={NextLink} href="https://500px.com/p/garciaflorezsebastian?view=photos">
                             photography
                         </Link>
                         , especially during hikes or travels. Sebastian is currently working for a startup called&nbsp;
@@ -114,7 +114,20 @@ const Page = () => {
                         <BioYear>2022 to present</BioYear>
                         Works as Frontend Developer in CinemaHive
                     </BioSection>
-                </Section>\
+                </Section>
+
+                <Section delay={0.2}>
+                    <Heading as='h3' variant='section-title'>
+                        I ♥
+                    </Heading>
+                    <Paragraph>
+                        Art, <Link as={NextLink} href="https://sebastiangflorez.tumblr.com/">
+                            Drawing, 
+                        </Link> <Link as={NextLink} href="https://500px.com/p/garciaflorezsebastian?view=photos">
+                        Photography
+                        </Link>, Music, Running
+                    </Paragraph>
+                </Section>
 
                 <Section>
                     <Heading as='h3' variant='section-title'>
@@ -135,7 +148,7 @@ const Page = () => {
                         </ListItem>
                         <ListItem>
                             <Link href="https://www.instagram.com/sebastiangflorez/" target="_blank">
-                                <Button
+                                <Button//www.instagram.com/sebastiangflorez/
                                     variant='ghost'
                                     colorScheme={useColorModeValue('purple', 'teal')}
                                     leftIcon={<Icon as={IoLogoInstagram} />}
@@ -157,7 +170,7 @@ const Page = () => {
                         </ListItem>
                     </List>
 
-                   
+
                 </Section>
 
             </Container>
