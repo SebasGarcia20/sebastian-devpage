@@ -42,22 +42,22 @@ const VoxelCat = () => {
         refRenderer.current = renderer
         const scene = new THREE.Scene()
   
-        const target = new THREE.Vector3(-0.5, 1.2, 0)
+        const target = new THREE.Vector3(-0.3, -1, 0)
         const initialCameraPosition = new THREE.Vector3(
-          20 * Math.sin(0.2 * Math.PI),
+          23 * Math.sin(0.4 * Math.PI),
           10,
-          20 * Math.cos(0.2 * Math.PI)
+          20 * Math.cos(0.4 * Math.PI)
         )
   
         // 640 -> 240
         // 8   -> 6
-        const scale = scH * 0.0001 + 4.8
+        const scale = scH * 0.0001 + 4.5
         const camera = new THREE.OrthographicCamera(
           -scale,
           scale,
           scale,
           -scale,
-          0.01,
+          0.,
           50000
         )
         camera.position.copy(initialCameraPosition)
@@ -124,9 +124,9 @@ const VoxelCat = () => {
             className='volex-cat'
             m='auto'
             at={['-20px', '-60px', '-120px']}
-            mb={['-40px', '-140px', '-200px']}
-            w={[280, 480, 640]}
-            h={[200, 480, 640]}
+            mb={['-160px', '-200px', '-270px']}
+            w={[400, 500, 600]}
+            h={[400, 500, 600]}
             position='relative'
         >
             {loading && (

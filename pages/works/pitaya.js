@@ -6,34 +6,36 @@ import Layout from "../../components/layouts/article";
 
 const Work = () => {
     return (
-        <Layout title="Cinemahive">
+        <Layout title="La Sierra">
             <Container>
                 <Title>
-                    Cinemahive <Badge>2022</Badge>
+                    La Sierra Annapolis <Badge>2024</Badge>
                 </Title>
                 <P>
-                    An all-in-one film production platform. Creative documents. Calendars. Contacts. Call sheets. Payroll.
+                    A restaurant website highlighting authentic rancho cuisine and exotic dragon fruit plates,
+                    complete with catering services and upcoming event details.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href='https://cinemahive.com/' target="_blank">
-                            https://cinemahive.com/ <ExternalLinkIcon mx="2px" />
+                        <Link href='https://pitayamexicanrestaurant.com/' target="_blank">
+                            https://pitayamexicanrestaurant.com/ <ExternalLinkIcon mx="2px" />
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Platform</Meta>
-                        <span>Web</span>
+                        <span>WEB</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span> ReactJs, GraphQL, Apollo Client, TypeScript, Django</span>
+                        <span> HTML, Javascript, PHP, CSS</span>
                     </ListItem>
                 </List>
-                <WorkImage src='/images/works/cinemahive_eyecatch.png' />
-                <WorkImage src='/images/works/cinemahive/cinemahive1.png' />
-                <WorkImage src='/images/works/cinemahive/cinemahive3.png' />
-                <WorkImage src='/images/works/cinemahive/cinemahive2.png' />
+                <WorkImage src='/images/works/pitaya/pitaya1.png' />
+                <WorkImage src='/images/works/pitaya/pitaya2.png' />
+                <WorkImage src='/images/works/pitaya/pitaya3.png' />
+                <WorkImage src='/images/works/pitaya/pitaya4.png' />
+                <WorkImage src='/images/works/pitaya/pitaya5.png' />
             </Container>
         </Layout>
     )
